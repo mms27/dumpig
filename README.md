@@ -1,2 +1,2 @@
 # dumpig
-Environmental configurations dump
+Dump of configs.
