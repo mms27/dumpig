@@ -1,0 +1,31 @@
+[color]
+    ui = auto
+[color "branch"]
+    current = yellow bold
+    local = green bold
+    remote = cyan bold
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+    whitespace = red reverse
+[color "status"]
+    added = green bold
+    changed = red bold
+    untracked = red bold
+    header = magenta
+    branch = magenta bold
+[push]
+    default = current
+[alias]
+    br = branch
+    co = checkout
+    st = status
+    ci = commit
+[user]
+    email = %EMAIL%
+    name = %AUTHOR%
+[core]
+    editor = subl -w
+    fileMode = false
